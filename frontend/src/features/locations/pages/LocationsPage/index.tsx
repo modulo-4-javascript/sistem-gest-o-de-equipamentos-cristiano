@@ -335,7 +335,7 @@ export function LocationsPage() {
   }
 
   function handleViewLocation(location: LocationDetails) {
-    navigate(`/locations/${location.id}`)
+    navigate(`/locations/${location.code}`)
   }
 
   function handleCreateLocation() {
